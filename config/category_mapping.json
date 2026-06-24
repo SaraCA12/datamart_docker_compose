@@ -1,0 +1,15 @@
+{
+  "_comment": "Mapeamos categorías basándonos en palabras clave en la descripción del producto.",
+  "_decision": "Sin API de catálogo, derivamos categoría de la descripción. Ver DECISIONS.md sección 4.3.",
+  "categories": {
+    "Electrónica": ["LIGHT", "LAMP", "BULB", "BATTERY", "WIRE", "CABLE", "PHONE", "RADIO", "CLOCK", "TIMER"],
+    "Hogar":       ["CANDLE", "HOLDER", "CUSHION", "FRAME", "MIRROR", "VASE", "BASKET", "BOX", "STORAGE", "SHELF", "HOOK", "HANGER", "MAT", "TOWEL", "PILLOW", "BLANKET", "BOTTLE", "JAR", "TIN", "CAN"],
+    "Cocina":      ["CUP", "MUG", "BOWL", "PLATE", "GLASS", "SPOON", "FORK", "KNIFE", "TRAY", "CAKE", "BAKING", "KITCHEN", "COOK", "PAN", "POT"],
+    "Ropa":        ["BAG", "PURSE", "WALLET", "SCARF", "HAT", "GLOVE", "SHOE", "BOOT", "DRESS", "SHIRT", "SKIRT", "WRAP", "APRON"],
+    "Deportes":    ["BALL", "GAME", "SPORT", "FITNESS", "SWIM", "GOLF", "TENNIS"],
+    "Papelería":   ["PEN", "PENCIL", "PAPER", "CARD", "NOTE", "BOOK", "DIARY", "RULER", "STAMP", "STICKER", "TAG", "LABEL"],
+    "Fiesta":      ["PARTY", "CHRISTMAS", "BIRTHDAY", "WEDDING", "BALLOON", "BANNER", "RIBBON", "DECORATION", "ADVENT", "EASTER", "HALLOWEEN"],
+    "Juguetes":    ["TOY", "DOLL", "PUPPET", "GAME", "PUZZLE", "PLAY"]
+  },
+  "default": "Varios"
+}
